@@ -1,2 +1,2 @@
-# Dupla
-## NOME1 ANAJU - 04 NOME2 ANY - 08
+# DUPLA
+## Nome1 Anaju - 04 Nome2 Any - 08
