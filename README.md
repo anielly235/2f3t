@@ -1,2 +1,2 @@
 # DUPLA
-## Nome1 Anaju - 04 Nome2 Any - 08
+## Anaju - 04 Any - 08
