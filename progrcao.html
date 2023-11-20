@@ -18,10 +18,10 @@
 
        </div>
        <div class="calculaPA">
-        r = <input type="number" id="razao"><br>
-        a<sub>1</sub>=<input type="number" id="a1"><br>
-        a<sub>n</sub>=<input type="number" readonly id="an">
-        n=<input type="number" id="n">
+        r = <input type="number" onchange="set_razao()" id="razao"><br>
+        a<sub>1</sub>=<input onchange="set_a1()" type="number" id="a1"><br>
+        a<sub>n</sub>=<input type="number" readonly id="an"><br>
+        n=<input type="number" onchange="set_n()" id="n"><br>
 
         PA = <samp id="pa"></samp>
        </div>
