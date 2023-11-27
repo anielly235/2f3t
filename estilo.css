@@ -1,6 +1,59 @@
-
 body{
-    background-color: rgb(145, 103, 199);
-    color: rgb(185, 41, 65);
+    background-color: rgb(5, 4, 5);
+    color: rgb(255, 255, 255);
 }
-
+.calculadora{
+    background: rgb(104, 106, 122);
+    padding: 8px;
+    width: 220px;
+    text-align: center;
+    border-radius: 10px;
+}
+.display_calc{
+    background: black;
+   text-align: center;
+}
+#resultado{
+    padding: 2px;
+    background: rgb(173, 182, 223);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 10%;
+}
+button{
+    width: 40px;
+    height: 40px;
+    margin:3px;
+    border-radius: 20%;
+    background-color: rgb(170, 170, 170);
+}
+#bnt_igual{
+    background-color: rgb(43, 33, 136);
+    color: white;
+}
+.entrada{
+    width: 40px;
+    background-color: rgb(165, 187, 233);
+    color: black;
+    border: none;
+    border-bottom: 2px solid #fff ;
+}
+.pa {
+    width: 800px;
+    background-color: rgb(216, 170, 247);
+    padding: 20px;
+    color: black;
+}
+.calculadoraPA {
+    width: 48;
+    border: none;
+    border: 1px solid #000;
+}
+.paissagem {
+    width: 90%;
+    height: 90;
+}
+#figura {
+    width: 1700px;
+    height: 840px;
+}
