@@ -162,14 +162,17 @@ const set_n = () => {
     n = document.getElementById("n").value;
     mostrar_pa();
 }
-const mudar_imagem = ()=>{
-    num++;
-    setTimeout(()=>{
-        document.getElementById("figura").src= "https://www.google.com/url?sa=i&url=https%3A%2F%2Fescolakids.uol.com.br%2Fgeografia%2Fpaisagem.htm&psig=AOvVaw3OrFuB65yOa0PuWPJdks3m&ust=1701168407750000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCLjO5amA5IIDFQAAAAAdAAAAABAm"+num+"jpg";
-        mudar_imagem();
-        if(num == 3) num = 0;
-    },5000);
-
-     
+const soma = () => {
+    let minimo = document.getElementById("minimo").value;
+    let maximo = document.getElementById("maximo").value;
+    if(minimo != "" && maximo != ""){
+        if(minimo < maximo)
+        document.getElementById("soma").innerHTML = soma_recursiva();
+    }
 }
-mudar_imagem();
+const soma_recursiva = (minimo, maximo) => {
+    soma = minimo;
+    if(minimo == maximo) return soma;
+    return soma_recursiva(minimo++,maximo)
+    
+}
